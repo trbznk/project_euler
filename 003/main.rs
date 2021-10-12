@@ -15,8 +15,6 @@ fn main() {
     const N: usize = 10000;
     let mut prims = Vec::new();
 
-    //println!("{}", prims);
-
     for p in 2..N as i64 {
         if is_prime(p.into()) {
             prims.push(p);
